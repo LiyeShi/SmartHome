@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello World, ContactsManager!</string>
+    <string name="use_photo_as_primary" >使用此头像</string>
+    <string name="changePicture" >更改头像</string>
+    <string name="removePicture" >删除头像</string>
+    <string name="attachToContact">好友头像</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_photo">从图库中选择一张</string>
+    <string name="photoPickerNotFoundText" >照相机没拍到照片</string>
+    <string name="photoPickerNotFoundText1" >手机里面没有照片</string>
+    <string name="photoPickerNotFoundText2" >剪辑照片出错</string>
+    <string name="spinner_group">加入分组</string>
+</resources>

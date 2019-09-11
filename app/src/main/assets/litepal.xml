@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cool_weather"/>
+    <version value ="1"/>
+    <list>
+        <mapping class="com.sict.soft.smarthome.db.Province"/>
+        <mapping class="com.sict.soft.smarthome.db.City"/>
+        <mapping class="com.sict.soft.smarthome.db.County"/>
+    </list>
+</litepal>

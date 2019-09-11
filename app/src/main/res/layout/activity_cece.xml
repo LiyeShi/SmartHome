@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/cece"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#42c9e1">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:id="@+id/cece_back"
+            android:background="@drawable/fanhui"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="健康调查"
+            android:textSize="25dp"
+            android:layout_marginRight="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cece"
+        android:layout_marginBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1:您的性别："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/one_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/one_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="男" />
+                <RadioButton
+                    android:id="@+id/one_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="女" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2:您的年龄："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/two_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/two_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="60-65" />
+                <RadioButton
+                    android:id="@+id/two_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="65-75" />
+                <RadioButton
+                    android:id="@+id/two_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="75以上" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q3:您的睡眠时间是："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/three_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/three_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="6小时以下" />
+                <RadioButton
+                    android:id="@+id/three_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="6-9小时" />
+                <RadioButton
+                    android:id="@+id/three_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="9小时以上" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q4:每天的活动量大吗："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/four_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/four_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="活动量少（经常坐着）" />
+                <RadioButton
+                    android:id="@+id/four_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="活动量一般（日常生活）" />
+                <RadioButton
+                    android:id="@+id/four_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="活动量稍大（体力劳动）" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Q5:您血压正常吗："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/five_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/five_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="正常" />
+                <RadioButton
+                    android:id="@+id/five_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="高血压" />
+                <RadioButton
+                    android:id="@+id/five_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="低血压" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Q6:您多久吃一次水果："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/six_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/six_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="从不吃" />
+                <RadioButton
+                    android:id="@+id/six_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="每周3-4次" />
+                <RadioButton
+                    android:id="@+id/six_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="每天都吃" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Q7:您认为您的健康状况如何："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/seven_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/seven_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="很好" />
+                <RadioButton
+                    android:id="@+id/seven_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="正常" />
+                <RadioButton
+                    android:id="@+id/seven_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="有些差" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Q8:您会定期去医院做检查吗："
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/eight_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/eight_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="会" />
+                <RadioButton
+                    android:id="@+id/eight_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="不会" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Q9:您吸烟喝酒吗："
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/nine_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/nine_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="吸烟或喝酒" />
+                <RadioButton
+                    android:id="@+id/nine_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="吸烟也喝酒" />
+                <RadioButton
+                    android:id="@+id/nine_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="不吸烟喝酒" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Q10:您认为岁数大了，怎么过："
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"/>
+            <RadioGroup
+                android:id="@+id/ten_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+                <RadioButton
+                    android:id="@+id/ten_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="享受晚年" />
+                <RadioButton
+                    android:id="@+id/ten_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="学点新东西" />
+                <RadioButton
+                    android:id="@+id/ten_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="过一天算一天" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+                <Button
+                    android:id="@+id/cece_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="提交"
+                    android:textSize="20dp"/>
+                <Button
+                    android:id="@+id/cece_no"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="取消"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout >

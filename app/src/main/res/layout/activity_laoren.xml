@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.sict.soft.smarthome.LaorenActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#42c9e1">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/lr_back"
+            android:background="@drawable/fanhui"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/l_jiaren"
+            />
+        <TextView
+            android:id="@+id/at_lr_bt1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="家         人"
+            android:textColor="#cf257b"
+            android:textSize="22dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/l_tixing"
+            />
+        <TextView
+            android:id="@+id/at_lr_bt2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="事件提醒"
+            android:textColor="#2393d5"
+            android:textSize="22dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/l_shenghuo"
+            />
+        <TextView
+            android:id="@+id/at_lr_bt3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="健康生活"
+            android:textColor="#f2aa17"
+            android:textSize="22dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/l_xinlv"
+            />
+        <TextView
+            android:id="@+id/at_lr_bt4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="心         率"
+            android:textColor="#d01e1c"
+            android:textSize="22dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

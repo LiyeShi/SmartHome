@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xinlv"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#16c4b8">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/xl_back"
+            android:background="@drawable/fanhui"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_xl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#18c4b8"
+            android:text="N/A"
+            android:textSize="70dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="次/分钟"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

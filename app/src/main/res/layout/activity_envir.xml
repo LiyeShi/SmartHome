@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.sict.soft.smarthome.EnvirActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#42c9e1">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:id="@+id/en_back"
+            android:background="@drawable/fanhui"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/wendu"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="温 度"
+            android:textColor="#d4237a"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="68dp"
+            android:text="N/A"
+            android:textSize="20dp"
+            android:textColor="#d4237a"
+            android:id="@+id/at_en_bt2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:text="℃"
+            android:textSize="20dp"
+            android:textColor="#d4237a" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/shidu"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="湿 度"
+            android:textColor="#0898ef"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="68dp"
+            android:text="N/A"
+            android:textSize="20dp"
+            android:textColor="#0898ef"
+            android:id="@+id/at_en_bt3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:text="％"
+            android:textSize="20dp"
+            android:textColor="#0898ef" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/guangzhao"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="光 照"
+            android:textColor="#f8a907"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="68dp"
+            android:text="N/A"
+            android:textSize="20dp"
+            android:textColor="#f8a907"
+            android:id="@+id/at_en_bt4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:text="Lux"
+            android:textSize="20dp"
+            android:textColor="#f8a907" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bobao"
+            android:id="@+id/at_en_bt5"/>
+        <EditText
+            android:id="@+id/E1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#42c9e1">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/fa_back"
+            android:background="@drawable/fanhui"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:text="人脸识别"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_height="250dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/gray"
+            android:id="@+id/tu_left">
+        </ImageView>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray"
+            android:id="@+id/tu_right">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相似度："
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/xiangsidu"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="N"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</LinearLayout>

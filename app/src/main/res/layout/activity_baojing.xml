@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sict.soft.smarthome.BaojingActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#42c9e1">
+
+        <Button
+            android:id="@+id/bj_back"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/fanhui" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/baojing_bg"/>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/hongwai2"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="人体红外"
+            android:textColor="#0b988f"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="安全"
+            android:textSize="20dp"
+            android:textColor="#0b988f"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/at_bj_bt1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/shengyin"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="声         音"
+            android:textColor="#bc2a75"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="安全"
+            android:textSize="20dp"
+            android:textColor="#bc2a75"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/at_bj_bt2"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/keran"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="可燃气体"
+            android:textColor="#71b6e5"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="安全"
+            android:textSize="20dp"
+            android:textColor="#71b6e5"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/at_en_bt3"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/yanwu2"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="烟雾浓度"
+            android:textColor="#f8a907"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="安全"
+            android:textSize="20dp"
+            android:textColor="#f8a907"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/at_en_bt4"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/di">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/huoyan"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:text="火         焰"
+            android:textColor="#d81e06"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="安全"
+            android:textSize="20dp"
+            android:textColor="#d81e06"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/at_bj_bt5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42c9e1">
+        <ImageView
+            android:id="@+id/item1_title_imv"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:background="#00000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人资料"
+            android:textSize="25dp"
+            android:layout_marginLeft="80dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/ab_laoren"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="用户名："
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="N/A"
+            android:id="@+id/name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="性   别："
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="N/A"
+            android:id="@+id/sex" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="年   龄："
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="N/A"
+            android:id="@+id/age"
+            android:layout_marginRight="34dp"
+            android:layout_marginEnd="34dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="手机号："
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="N/A"
+            android:id="@+id/tel" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="地   址："
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="N/A"
+            android:id="@+id/adress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/updata"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:text="修改"
+            android:textSize="20dp"
+            android:layout_margin="30dp"
+            />
+        <Button
+            android:id="@+id/no"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:text="取消"
+            android:textSize="20dp"
+            android:layout_margin="30dp"
+            />
+    </LinearLayout>
+</LinearLayout>

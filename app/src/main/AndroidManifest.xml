@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sict.soft.smarthome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CNANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application
+        android:name="org.litepal.LitePalApplication"
+        tools:replace="android:label"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="乐老"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="HOQEMI0pRSxDOs8yb7TpQgrExMf1fbrS"/>
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Guide" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".NetActivity" />
+        <activity android:name=".item1Activity" />
+        <activity android:name=".item2Activity" />
+        <activity android:name=".item3Activity" />
+        <activity android:name=".item4Activity" />
+        <activity android:name=".CaxunActivity" />
+        <activity android:name=".ControlActivity" />
+        <activity android:name=".EnvirActivity" />
+        <activity android:name=".Jiankong2Activity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"></activity>
+        <activity android:name=".BaiduActivity"/>
+        <activity android:name=".AmazonActivity"/>
+        <activity android:name=".JingdongActivity"/>
+        <activity android:name=".JumeiActivity"/>
+        <activity android:name=".MeituanActivity"/>
+        <activity android:name=".QunaerActivity"/>
+        <activity android:name=".VIPActivity"/>
+        <activity android:name=".WangyiActivity"/>
+        <activity android:name=".TaobaoActivity"/>
+        <activity android:name=".BaojingActivity" />
+        <activity android:name=".LaorenActivity" />
+        <activity android:name=".ShujuActivity" />
+        <activity android:name=".XinlvActivity" />
+        <activity android:name=".RingActivity" />
+        <activity android:name=".FaceActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".LifeActivity" />
+        <activity android:name=".WeatherActivity" />
+        <activity android:name=".MainWeatherActivity"/>
+        <activity android:name=".SetActivity" />
+        <activity android:name=".GaisetActivity" />
+        <activity android:name=".CeceActivity" />
+        <activity android:name=".Gaiitem1Activity" />
+        <service android:name=".FloatViewService"></service>
+        <activity android:name=".JiarenActivity" />
+        <activity android:name=".EditJiarenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="com.android.lelao/android.insert"/>
+            </intent-filter>
+            <!-- edit data -->
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="com.android.lelao/android.edit"/>
+            </intent-filter>
+        </activity>
+
+
+        <service
+
+            android:name=".service.AutoUpdateService"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".RingReceived"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.naozhong.RING" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.baidu.location.f" android:enabled="true"
+            android:process=":remote">
+
+        </service>
+        <service android:name=".SearchService" />
+
+    </application>
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+
+</manifest>

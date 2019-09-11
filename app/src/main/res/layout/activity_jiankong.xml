@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.sict.soft.smarthome.JiankongActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#42c9e1">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/jk_back"
+            android:background="@drawable/fanhui"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/VIEW"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#000000"/>
+        <TextView
+            android:id="@+id/camera_statuss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="80dp"
+            android:text="监控状态"
+            android:textColor="#90EE90"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/di"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/che_xin"
+                android:id="@+id/at_jk_car1"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/jixie_xin"
+                android:id="@+id/at_jk_car2"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/jiankong_xin"
+                android:layout_marginLeft="19dp"
+                android:id="@+id/at_jk_jk"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/all"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_width="50dp">
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shangbian"
+                    android:id="@+id/at_jk_up"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent">
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/zuobian"
+                    android:id="@+id/at_jk_left"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/face"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/at_jk_sb"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/youbian"
+                    android:id="@+id/at_jk_right"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_width="50dp">
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/xiabian"
+                    android:id="@+id/at_jk_down"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
